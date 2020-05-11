@@ -1,0 +1,114 @@
+ul{
+position: absolute;
+width: 787.02px;
+height: 692.44px;
+left: calc(50% - 787.02px/2 + 2.63px);
+top: 294px;
+margin-bottom: 50px;
+
+background: #F6B228;
+border-radius: 100px;
+}
+
+.um{
+    position: absolute;
+width: 239.4px;
+height: 212px;
+left: calc(50% - 239.4px/2 - 271.66px);
+top: -1.5px;
+left: -1px;
+
+background: #9D3979;
+border-radius: 100px 0px 20px;
+}
+
+.dois{
+    position: absolute;
+width: 234.4px;
+height: 211px;
+left: calc(50% - 234.4px/2 - 0.16px);
+top: -1.5px;
+
+background: #9D3979;
+border-radius: 0px 0px 10px 10px;
+}
+
+.treis{
+    position: absolute;
+width: 241.4px;
+height: 212px;
+left: calc(50% - 241.4px/2 + 275.34px);
+top: -1.5px;
+
+background: #9D3979;
+border-radius: 0px 100px 0px 10px;
+}
+
+.quatro{
+    position: absolute;
+width: 239.4px;
+height: 222px;
+left: calc(50% - 239.4px/2 - 271.66px);
+top: 229px;
+left: -1px;
+
+background: #9D3979;
+border-radius: 0px 20px 20px 0px;
+}
+
+.cinco{
+    position: absolute;
+width: 234.4px;
+height: 222px;
+left: calc(50% - 234.4px/2 - 0.16px);
+top: 229px;
+
+background: #9D3979;
+border-radius: 10px;
+}
+
+.seis{
+    position: absolute;
+width: 241.4px;
+height: 222px;
+left: calc(50% - 241.4px/2 + 275.34px);
+top: 229px;
+
+background: #9D3979;
+border-radius: 10px 0px 0px 10px;
+}
+
+.sete{
+    position: absolute;
+width: 239.4px;
+height: 212px;
+left: calc(50% - 239.4px/2 - 271.66px);
+top: 480px;
+left: -1px;
+
+background: #9D3979;
+border-radius: 0px 20px 0px 100px;
+}
+
+.oito{
+    position: absolute;
+width: 234.4px;
+height: 212px;
+left: calc(50% - 234.4px/2 - 0.16px);
+top: 480px;
+
+background: #9D3979;
+}
+
+.nove{
+    position: absolute;
+width: 241.4px;
+height: 212px;
+left: calc(50% - 241.4px/2 + 275.34px);
+top: 480px;
+
+background: #9D3979;
+border-radius: 20px 0px 100px;
+margin-bottom: 10px;
+
+}
