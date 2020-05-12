@@ -8,8 +8,22 @@ margin-bottom: 50px;
 
 background: #F6B228;
 border-radius: 100px;
-}
 
+
+}
+#font{
+font-family: Myanmar Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 200px;
+line-height: 200px;
+
+text-align: center;
+
+color: #F6B228;
+
+text-shadow: 7px 7px 4px #453D3D;
+}
 .um{
     position: absolute;
 width: 239.4px;
@@ -20,6 +34,8 @@ left: -1px;
 
 background: #9D3979;
 border-radius: 100px 0px 20px;
+
+
 }
 
 .dois{
