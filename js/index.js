@@ -1,38 +1,31 @@
-var button = document.querySelectorAll("button");
+
 var jogo = document.querySelector("ul");
+var xo = 1;
 
 jogo.addEventListener("click", function(event){
+    
     event.preventDefault();
+    
     var xx = event.target;
-
-    console.log(xx.textContent)
-
-    if(xx.textContent.length > 1){
+    var clique = xx.textContent;
+    
+    //click fora
+    if(clique.length > 2){
         return
     }
-
-    xx.textContent = "X";
-    xx.style.color = "#098ca3";
     
-})
 
-jogo.addEventListener("contextmenu", function(event){
-    event.preventDefault();
-    var oo = event.target;
-
-    if(oo.textContent.length > 1){
-        return
+    xo++;
+    if((xo % 2) == 0 ){
+        xx.textContent = "X";
+        xx.style.color = "#098ca3";
+    }else if((xo % 2) == 1){
+        xx.textContent = "O";
+        xx.style.color = "#1cb87c";
+            
     }
-
-    oo.textContent = "O";
-    oo.style.color = "#1cb87c"
+        
+        
     
+   
 })
-
-
-
-    /*var casa = casa;
-    casa = button[2].textContent;
-            098ca3
-    console.log(casa)
-    fun*/
