@@ -2,10 +2,6 @@ body{
     background: #E5E5E5;
     font-family: 'Quicksand', sans-serif;
 }
-header{
-    
-}
-
 .box{
     position: absolute;
     height: 236px;
@@ -16,9 +12,6 @@ header{
     background: url(../XOXO.png);
     opacity: 0.85;
     border-radius: 20px;
-
-    
-   
 }
 
 .up-box{
@@ -34,39 +27,67 @@ header{
 
 .title-header{
     position: absolute;
-width: 706px;
-height: 10%;
-left: calc(50% - 706px/2);
-top: 67px;
+    width: 706px;
+    height: 10%;
+    left: calc(50% - 706px/2);
+    top: 67px;
 
-font-family: Quicksand;
-font-style: normal;
-font-weight: bold;
-font-size: 90px;
-line-height: 112px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 112px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
 
-color: #F6B228;
+    color: #F6B228;
 
-text-shadow: 16px 16px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 16px 16px 4px rgba(0, 0, 0, 0.25);
 }
-
-
-
-
-
 .reload{
     position: absolute;
-width: 74px;
-height: 59px;
-right: 20px;
-bottom: 0px;
-top: calc(50% - 59px/2 + 480.5px);
+    width: 74px;
+    height: 59px;
+    right: 20px;
+    bottom: 0px;
+    top: calc(50% - 59px/2 + 480.5px);
 
-background: #F6B228;
-border-radius: 6px;
+    background: #F6B228;
+    border-radius: 6px;
     
+}
+.ganhou{
+    position: absolute;
+    width: 723px;
+    height: 46px;
+    left: calc(50% - 723px/2 + 4.5px);
+    top: 385px;
+    
+    background: #9082a0;
+    border-radius: 50px;
+}
+.ganhouVertical{
+    position: absolute;
+    width: 49px;
+    height: 652px;
+    left: calc(50% - 49px/2 - 275.5px);
+    top: 317px;
+    
+    background: #C4C4C4;
+    border-radius: 50px;
+}
+.ganhouTrasversal{
+   
+    position: absolute;
+    width: 56px;
+    left: calc(50% - 56px/2 - 0px);
+    top: 170px;
+    bottom: -150px;
+
+    background: #C4C4C4;
+    border-radius: 50px;
+    transform: rotate(-48deg);
+
 }
